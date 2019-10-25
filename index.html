@@ -45,7 +45,7 @@
       width: 170px;
       flex-grow: 1;
       margin-right: 30px;
-      margin-bottom: 100px;
+      margin-bottom: 80px;
       background: #ffffff;
       box-shadow: 0 4px 10px rgba(142, 162, 206, 0.356);
       transition: 0.3s;
@@ -72,9 +72,8 @@
 
     .container {
       display: flex;
-      flex-direction: row-reverse;
       flex-wrap: wrap;
-      margin-top: 120px;
+      margin-top: 100px;
     }
 
     .text {
@@ -82,24 +81,30 @@
       background: #ffffff;
     }
 
-    .text .cap {
+    .cap {
       font-size: 22px;
       padding-bottom: 5px;
       padding-left: 3px;
       opacity: 0.4;
+      user-select: none;
+    }
+
+    .caphov {
+      opacity: 0.9;
     }
 
     .hex {
-      font-size: 18px;
+      font-size: 20px;
       opacity: 0.2;
       cursor: pointer;
       transition: 0.3s;
     }
 
-    .hex:hover {
+    .hexhov {
       opacity: 0.9;
       color: #ffffff;
       font-size: 22px;
+      letter-spacing: 0.05em;
     }
 
     .color {
@@ -111,7 +116,7 @@
       cursor: pointer;
     }
 
-    .color:hover {
+    .colorhov {
       border-radius: 60px;
     }
 
@@ -196,6 +201,7 @@
     .footer-inner p {
       text-align: right;
       opacity: 0.4;
+      user-select: none;
     }
 
     .sns img {
@@ -264,7 +270,7 @@
       margin-bottom: 0;
     }
 
-    @media all and (max-width: 420px) {
+    @media all and (max-width: 640px) {
       .footer-inner img:nth-of-type(1) {
         width: 135px;
         height: auto;
@@ -310,7 +316,7 @@
       .wrapper {
         padding-left: 7%;
         padding-right: 7%;
-        padding-top: 120px;
+        padding-top: 100px;
       }
 
       .container {
@@ -319,7 +325,7 @@
 
       .box {
         width: 180px;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
         margin-right: 0;
       }
 
@@ -336,9 +342,8 @@
       .tool ul {
         display: flex;
         justify-content: center;
-        padding: 20px;
+        padding: 15px;
         border-radius: 8px 8px 0 0;
-        border-bottom: 8px solid #f99ed9;
       }
 
       .tool ul li {
@@ -391,15 +396,8 @@
         padding-bottom: 5px;
       }
 
-      .line .left {
-        width: 0%;
-      }
-
-      .line .right {
-        height: 10px;
-        width: 100%;
-        background: #28eff2;
-        opacity: 0.6;
+      footer {
+        margin-top: 10px;
       }
 
     }
@@ -437,7 +435,7 @@
       <div class="box">
         <div class="color"><span class="hex">#bbdd4c</span></div>
         <div class="text">
-          <div class="cap">Color 01</div>
+          <div class="cap">Color 02</div>
           <div class="color-footer">
             <div class="fav"><img src="img/fav.svg" alt=""></div>
             <div class="set"><img src="img/set.svg" alt=""></div>
@@ -448,7 +446,7 @@
       <div class="box">
         <div class="color"><span class="hex">#bbdd4c</span></div>
         <div class="text">
-          <div class="cap">Color 01</div>
+          <div class="cap">Color 03</div>
           <div class="color-footer">
             <div class="fav"><img src="img/fav.svg" alt=""></div>
             <div class="set"><img src="img/set.svg" alt=""></div>
@@ -459,7 +457,7 @@
       <div class="box">
         <div class="color"><span class="hex">#bbdd4c</span></div>
         <div class="text">
-          <div class="cap">Color 01</div>
+          <div class="cap">Color 04</div>
           <div class="color-footer">
             <div class="fav"><img src="img/fav.svg" alt=""></div>
             <div class="set"><img src="img/set.svg" alt=""></div>
@@ -470,7 +468,7 @@
       <div class="box">
         <div class="color"><span class="hex">#bbdd4c</span></div>
         <div class="text">
-          <div class="cap">Color 01</div>
+          <div class="cap">Color 05</div>
           <div class="color-footer">
             <div class="fav"><img src="img/fav.svg" alt=""></div>
             <div class="set"><img src="img/set.svg" alt=""></div>
@@ -481,7 +479,7 @@
       <div class="box">
         <div class="color"><span class="hex">#bbdd4c</span></div>
         <div class="text">
-          <div class="cap">Color 01</div>
+          <div class="cap">Color 06</div>
           <div class="color-footer">
             <div class="fav"><img src="img/fav.svg" alt=""></div>
             <div class="set"><img src="img/set.svg" alt=""></div>
@@ -492,7 +490,7 @@
       <div class="box">
         <div class="color"><span class="hex">#bbdd4c</span></div>
         <div class="text">
-          <div class="cap">Color 01</div>
+          <div class="cap">Color 07</div>
           <div class="color-footer">
             <div class="fav"><img src="img/fav.svg" alt=""></div>
             <div class="set"><img src="img/set.svg" alt=""></div>
@@ -503,7 +501,7 @@
       <div class="box">
         <div class="color"><span class="hex">#bbdd4c</span></div>
         <div class="text">
-          <div class="cap">Color 01</div>
+          <div class="cap">Color 08</div>
           <div class="color-footer">
             <div class="fav"><img src="img/fav.svg" alt=""></div>
             <div class="set"><img src="img/set.svg" alt=""></div>
@@ -514,7 +512,7 @@
       <div class="box">
         <div class="color"><span class="hex">#bbdd4c</span></div>
         <div class="text">
-          <div class="cap">Color 01</div>
+          <div class="cap">Color 09</div>
           <div class="color-footer">
             <div class="fav"><img src="img/fav.svg" alt=""></div>
             <div class="set"><img src="img/set.svg" alt=""></div>
@@ -525,7 +523,7 @@
       <div class="box">
         <div class="color"><span class="hex">#bbdd4c</span></div>
         <div class="text">
-          <div class="cap">Color 01</div>
+          <div class="cap">Color 10</div>
           <div class="color-footer">
             <div class="fav"><img src="img/fav.svg" alt=""></div>
             <div class="set"><img src="img/set.svg" alt=""></div>
@@ -536,7 +534,7 @@
       <div class="box">
         <div class="color"><span class="hex">#bbdd4c</span></div>
         <div class="text">
-          <div class="cap">Color 01</div>
+          <div class="cap">Color 11</div>
           <div class="color-footer">
             <div class="fav"><img src="img/fav.svg" alt=""></div>
             <div class="set"><img src="img/set.svg" alt=""></div>
@@ -547,7 +545,7 @@
       <div class="box">
         <div class="color"><span class="hex">#bbdd4c</span></div>
         <div class="text">
-          <div class="cap">Color 01</div>
+          <div class="cap">Color 12</div>
           <div class="color-footer">
             <div class="fav"><img src="img/fav.svg" alt=""></div>
             <div class="set"><img src="img/set.svg" alt=""></div>
@@ -558,7 +556,7 @@
       <div class="box">
         <div class="color"><span class="hex">#bbdd4c</span></div>
         <div class="text">
-          <div class="cap">Color 01</div>
+          <div class="cap">Color 13</div>
           <div class="color-footer">
             <div class="fav"><img src="img/fav.svg" alt=""></div>
             <div class="set"><img src="img/set.svg" alt=""></div>
@@ -569,7 +567,7 @@
       <div class="box">
         <div class="color"><span class="hex">#bbdd4c</span></div>
         <div class="text">
-          <div class="cap">Color 01</div>
+          <div class="cap">Color 14</div>
           <div class="color-footer">
             <div class="fav"><img src="img/fav.svg" alt=""></div>
             <div class="set"><img src="img/set.svg" alt=""></div>
@@ -580,7 +578,7 @@
       <div class="box">
         <div class="color"><span class="hex">#bbdd4c</span></div>
         <div class="text">
-          <div class="cap">Color 01</div>
+          <div class="cap">Color 15</div>
           <div class="color-footer">
             <div class="fav"><img src="img/fav.svg" alt=""></div>
             <div class="set"><img src="img/set.svg" alt=""></div>
@@ -607,6 +605,27 @@
     <div class="left"></div>
     <div class="right"></div>
   </div>
+  <script>
+    let box = document.getElementsByClassName('box');
+    let hex = document.getElementsByClassName('hex');
+    let color = document.getElementsByClassName('color');
+    let cap = document.getElementsByClassName('cap');
+
+    for (let i = 0; i < box.length; i++) {
+
+    box[i].addEventListener('mouseover', function () {
+      hex[i].classList.add('hexhov');
+      color[i].classList.add("colorhov");
+      cap[i].classList.add("caphov");
+    });
+
+    box[i].addEventListener('mouseleave', function () {
+      hex[i].classList.remove('hexhov');
+      color[i].classList.remove("colorhov");
+      cap[i].classList.remove("caphov");
+    });
+  }
+  </script>
   <script>
     let nav = document.getElementById('sp-tool');
     const scrollHeight = Math.max(
