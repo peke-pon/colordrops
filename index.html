@@ -8,7 +8,128 @@
   <title>colordrops</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Numans&display=swap" rel="stylesheet">
   <style>
+    .box:nth-of-type(1) .color {
+      background: #1ee3cf;
+    }
+
+    .box:nth-of-type(2) .color {
+      background: #339988;
+    }
+
+    .box:nth-of-type(3) .color {
+      background: #463399;
+    }
+
+    .box:nth-of-type(4) .color {
+      background: #ec5743;
+    }
+
+    .box:nth-of-type(5) .color {
+      background: #dbb73f;
+    }
+
+    .box:nth-of-type(6) .color {
+      background: #454cb1;
+    }
+
+    .box:nth-of-type(7) .color {
+      background: #41dfc4;
+    }
+
+    .box:nth-of-type(8) .color {
+      background: #ca48fd;
+    }
+
+    .box:nth-of-type(9) .color {
+      background: #335a99;
+    }
+
+    .box:nth-of-type(10) .color {
+      background: #7fddd8;
+    }
+
+    .box:nth-of-type(11) .color {
+      background: #b93737;
+    }
+
+    .box:nth-of-type(12) .color {
+      background: #6da5e4;
+    }
+
+    .box:nth-of-type(13) .color {
+      background: #ff3974;
+    }
+
+    .box:nth-of-type(14) .color {
+      background: #2c194b;
+    }
+
+    .box:nth-of-type(15) .color {
+      background: #035f17;
+    }
+
+    .box:nth-of-type(16) .color {
+      background: #454cb1;
+    }
+
+    .box:nth-of-type(17) .color {
+      background: #41dfc4;
+    }
+
+    .box:nth-of-type(18) .color {
+      background: #ca48fd;
+    }
+
+    .box:nth-of-type(19) .color {
+      background: #335a99;
+    }
+
+    .box:nth-of-type(20) .color {
+      background: #7fddd8;
+    }
+
+    .box:nth-of-type(21) .color {
+      background: #b93737;
+    }
+
+    .box:nth-of-type(22) .color {
+      background: #6da5e4;
+    }
+
+    .box:nth-of-type(23) .color {
+      background: #ff3974;
+    }
+
+    .box:nth-of-type(24) .color {
+      background: #2c194b;
+    }
+
+    .box:nth-of-type(25) .color {
+      background: #035f17;
+    }
+
+    .box:nth-of-type(26) .color {
+      background: #1ee3cf;
+    }
+
+    .box:nth-of-type(27) .color {
+      background: #339988;
+    }
+
+    .box:nth-of-type(28) .color {
+      background: #463399;
+    }
+
+    .box:nth-of-type(29) .color {
+      background: #ec5743;
+    }
+
+    .box:nth-of-type(30) .color {
+      background: #dbb73f;
+    }
+
     body {
       margin: 0;
       background: rgb(245, 245, 245);
@@ -90,21 +211,20 @@
     }
 
     .caphov {
-      opacity: 0.9;
+      opacity: 0.8;
     }
 
     .hex {
+      font-family: 'Numans', sans-serif;
       font-size: 20px;
-      opacity: 0.2;
+      opacity: 0;
+      color: #ffffff;
       cursor: pointer;
       transition: 0.3s;
     }
 
     .hexhov {
       opacity: 0.9;
-      color: #ffffff;
-      font-size: 22px;
-      letter-spacing: 0.05em;
     }
 
     .color {
@@ -128,66 +248,6 @@
     .color-footer {
       display: flex;
       justify-content: space-between;
-    }
-
-    .box:nth-of-type(1) .color {
-      background: #bbdd4c;
-    }
-
-    .box:nth-of-type(2) .color {
-      background: #339988;
-    }
-
-    .box:nth-of-type(3) .color {
-      background: #463399;
-    }
-
-    .box:nth-of-type(4) .color {
-      background: #c74c3c;
-    }
-
-    .box:nth-of-type(5) .color {
-      background: #703399;
-    }
-
-    .box:nth-of-type(6) .color {
-      background: #333a99;
-    }
-
-    .box:nth-of-type(7) .color {
-      background: #76fae4;
-    }
-
-    .box:nth-of-type(8) .color {
-      background: #995333;
-    }
-
-    .box:nth-of-type(9) .color {
-      background: #335a99;
-    }
-
-    .box:nth-of-type(10) .color {
-      background: #99337f;
-    }
-
-    .box:nth-of-type(11) .color {
-      background: #c5dad6;
-    }
-
-    .box:nth-of-type(12) .color {
-      background: #e4b06d;
-    }
-
-    .box:nth-of-type(13) .color {
-      background: #533815;
-    }
-
-    .box:nth-of-type(14) .color {
-      background: #c2bdb7;
-    }
-
-    .box:nth-of-type(15) .color {
-      background: #523004;
     }
 
     footer {
@@ -422,7 +482,7 @@
   <div class="wrapper">
     <div class="container">
       <div class="box">
-        <div class="color"><span class="hex">#bbdd4c</span></div>
+        <div class="color"><span class="hex"></span></div>
         <div class="text">
           <div class="cap">Color 01</div>
           <div class="color-footer">
@@ -433,7 +493,7 @@
 
       </div>
       <div class="box">
-        <div class="color"><span class="hex">#bbdd4c</span></div>
+        <div class="color"><span class="hex"></span></div>
         <div class="text">
           <div class="cap">Color 02</div>
           <div class="color-footer">
@@ -444,7 +504,7 @@
 
       </div>
       <div class="box">
-        <div class="color"><span class="hex">#bbdd4c</span></div>
+        <div class="color"><span class="hex"></span></div>
         <div class="text">
           <div class="cap">Color 03</div>
           <div class="color-footer">
@@ -455,7 +515,7 @@
 
       </div>
       <div class="box">
-        <div class="color"><span class="hex">#bbdd4c</span></div>
+        <div class="color"><span class="hex"></span></div>
         <div class="text">
           <div class="cap">Color 04</div>
           <div class="color-footer">
@@ -466,7 +526,7 @@
 
       </div>
       <div class="box">
-        <div class="color"><span class="hex">#bbdd4c</span></div>
+        <div class="color"><span class="hex"></span></div>
         <div class="text">
           <div class="cap">Color 05</div>
           <div class="color-footer">
@@ -477,7 +537,7 @@
 
       </div>
       <div class="box">
-        <div class="color"><span class="hex">#bbdd4c</span></div>
+        <div class="color"><span class="hex"></span></div>
         <div class="text">
           <div class="cap">Color 06</div>
           <div class="color-footer">
@@ -488,7 +548,7 @@
 
       </div>
       <div class="box">
-        <div class="color"><span class="hex">#bbdd4c</span></div>
+        <div class="color"><span class="hex"></span></div>
         <div class="text">
           <div class="cap">Color 07</div>
           <div class="color-footer">
@@ -499,7 +559,7 @@
 
       </div>
       <div class="box">
-        <div class="color"><span class="hex">#bbdd4c</span></div>
+        <div class="color"><span class="hex"></span></div>
         <div class="text">
           <div class="cap">Color 08</div>
           <div class="color-footer">
@@ -510,7 +570,7 @@
 
       </div>
       <div class="box">
-        <div class="color"><span class="hex">#bbdd4c</span></div>
+        <div class="color"><span class="hex"></span></div>
         <div class="text">
           <div class="cap">Color 09</div>
           <div class="color-footer">
@@ -521,7 +581,7 @@
 
       </div>
       <div class="box">
-        <div class="color"><span class="hex">#bbdd4c</span></div>
+        <div class="color"><span class="hex"></span></div>
         <div class="text">
           <div class="cap">Color 10</div>
           <div class="color-footer">
@@ -532,7 +592,7 @@
 
       </div>
       <div class="box">
-        <div class="color"><span class="hex">#bbdd4c</span></div>
+        <div class="color"><span class="hex"></span></div>
         <div class="text">
           <div class="cap">Color 11</div>
           <div class="color-footer">
@@ -543,7 +603,7 @@
 
       </div>
       <div class="box">
-        <div class="color"><span class="hex">#bbdd4c</span></div>
+        <div class="color"><span class="hex"></span></div>
         <div class="text">
           <div class="cap">Color 12</div>
           <div class="color-footer">
@@ -554,7 +614,7 @@
 
       </div>
       <div class="box">
-        <div class="color"><span class="hex">#bbdd4c</span></div>
+        <div class="color"><span class="hex"></span></div>
         <div class="text">
           <div class="cap">Color 13</div>
           <div class="color-footer">
@@ -565,7 +625,7 @@
 
       </div>
       <div class="box">
-        <div class="color"><span class="hex">#bbdd4c</span></div>
+        <div class="color"><span class="hex"></span></div>
         <div class="text">
           <div class="cap">Color 14</div>
           <div class="color-footer">
@@ -576,7 +636,7 @@
 
       </div>
       <div class="box">
-        <div class="color"><span class="hex">#bbdd4c</span></div>
+        <div class="color"><span class="hex"></span></div>
         <div class="text">
           <div class="cap">Color 15</div>
           <div class="color-footer">
@@ -584,67 +644,264 @@
             <div class="set"><img src="img/set.svg" alt=""></div>
           </div>
         </div>
+      </div>
+      <div class="box">
+        <div class="color"><span class="hex"></span></div>
+        <div class="text">
+          <div class="cap">Color 16</div>
+          <div class="color-footer">
+            <div class="fav"><img src="img/fav.svg" alt=""></div>
+            <div class="set"><img src="img/set.svg" alt=""></div>
+          </div>
+        </div>
 
       </div>
-    </div>
-  </div>
-  <footer>
-    <div class="footer-inner">
-      <img src="img/footer-logo.png" alt="" width="144">
-      <div class="sns">
-        <a href="https://twitter.com/WEB02490413" target="_blank">
-          <img src="img/twitter.png" alt="twitter" width="32"></a>
-        <a href="https://github.com/peke-pon/Cider" target="_blank">
-          <img src="img/github.svg" alt="github" width="32">
-        </a>
+      <div class="box">
+        <div class="color"><span class="hex"></span></div>
+        <div class="text">
+          <div class="cap">Color 17</div>
+          <div class="color-footer">
+            <div class="fav"><img src="img/fav.svg" alt=""></div>
+            <div class="set"><img src="img/set.svg" alt=""></div>
+          </div>
+        </div>
+
       </div>
-      <p>Produced by Cider.2019</p>
+      <div class="box">
+        <div class="color"><span class="hex"></span></div>
+        <div class="text">
+          <div class="cap">Color 18</div>
+          <div class="color-footer">
+            <div class="fav"><img src="img/fav.svg" alt=""></div>
+            <div class="set"><img src="img/set.svg" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="box">
+        <div class="color"><span class="hex"></span></div>
+        <div class="text">
+          <div class="cap">Color 19</div>
+          <div class="color-footer">
+            <div class="fav"><img src="img/fav.svg" alt=""></div>
+            <div class="set"><img src="img/set.svg" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="box">
+        <div class="color"><span class="hex"></span></div>
+        <div class="text">
+          <div class="cap">Color 20</div>
+          <div class="color-footer">
+            <div class="fav"><img src="img/fav.svg" alt=""></div>
+            <div class="set"><img src="img/set.svg" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="box">
+        <div class="color"><span class="hex"></span></div>
+        <div class="text">
+          <div class="cap">Color 21</div>
+          <div class="color-footer">
+            <div class="fav"><img src="img/fav.svg" alt=""></div>
+            <div class="set"><img src="img/set.svg" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="box">
+        <div class="color"><span class="hex"></span></div>
+        <div class="text">
+          <div class="cap">Color 22</div>
+          <div class="color-footer">
+            <div class="fav"><img src="img/fav.svg" alt=""></div>
+            <div class="set"><img src="img/set.svg" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="box">
+        <div class="color"><span class="hex"></span></div>
+        <div class="text">
+          <div class="cap">Color 23</div>
+          <div class="color-footer">
+            <div class="fav"><img src="img/fav.svg" alt=""></div>
+            <div class="set"><img src="img/set.svg" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="box">
+        <div class="color"><span class="hex"></span></div>
+        <div class="text">
+          <div class="cap">Color 24</div>
+          <div class="color-footer">
+            <div class="fav"><img src="img/fav.svg" alt=""></div>
+            <div class="set"><img src="img/set.svg" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="box">
+        <div class="color"><span class="hex"></span></div>
+        <div class="text">
+          <div class="cap">Color 25</div>
+          <div class="color-footer">
+            <div class="fav"><img src="img/fav.svg" alt=""></div>
+            <div class="set"><img src="img/set.svg" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="box">
+        <div class="color"><span class="hex"></span></div>
+        <div class="text">
+          <div class="cap">Color 26</div>
+          <div class="color-footer">
+            <div class="fav"><img src="img/fav.svg" alt=""></div>
+            <div class="set"><img src="img/set.svg" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="box">
+        <div class="color"><span class="hex"></span></div>
+        <div class="text">
+          <div class="cap">Color 27</div>
+          <div class="color-footer">
+            <div class="fav"><img src="img/fav.svg" alt=""></div>
+            <div class="set"><img src="img/set.svg" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="box">
+        <div class="color"><span class="hex"></span></div>
+        <div class="text">
+          <div class="cap">Color 28</div>
+          <div class="color-footer">
+            <div class="fav"><img src="img/fav.svg" alt=""></div>
+            <div class="set"><img src="img/set.svg" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="box">
+        <div class="color"><span class="hex"></span></div>
+        <div class="text">
+          <div class="cap">Color 29</div>
+          <div class="color-footer">
+            <div class="fav"><img src="img/fav.svg" alt=""></div>
+            <div class="set"><img src="img/set.svg" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="box">
+        <div class="color"><span class="hex"></span></div>
+        <div class="text">
+          <div class="cap">Color 30</div>
+          <div class="color-footer">
+            <div class="fav"><img src="img/fav.svg" alt=""></div>
+            <div class="set"><img src="img/set.svg" alt=""></div>
+          </div>
+        </div>
+      </div>
     </div>
-  </footer>
-  <div class="line">
-    <div class="left"></div>
-    <div class="right"></div>
-  </div>
-  <script>
-    let box = document.getElementsByClassName('box');
-    let hex = document.getElementsByClassName('hex');
-    let color = document.getElementsByClassName('color');
-    let cap = document.getElementsByClassName('cap');
+    </div>
+    <footer>
+      <div class="footer-inner">
+        <img src="img/footer-logo.png" alt="" width="144">
+        <div class="sns">
+          <a href="https://twitter.com/WEB02490413" target="_blank">
+            <img src="img/twitter.png" alt="twitter" width="32"></a>
+          <a href="https://github.com/peke-pon/Cider" target="_blank">
+            <img src="img/github.svg" alt="github" width="32">
+          </a>
+        </div>
+        <p>Produced by Cider.2019</p>
+      </div>
+    </footer>
+    <div class="line">
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+    <script>
+      let colors = document.getElementsByClassName('color');
+      let disp = document.getElementsByClassName('hex');
+      for (let e = 0; e < colors.length; e++) {
+        let bgColor = window.getComputedStyle(colors[e], null).getPropertyValue('background-color');
+        let hexColor = rgbToHex(bgColor);
+        console.log(hexColor);  // => #194142
 
-    for (let i = 0; i < box.length; i++) {
-
-    box[i].addEventListener('mouseover', function () {
-      hex[i].classList.add('hexhov');
-      color[i].classList.add("colorhov");
-      cap[i].classList.add("caphov");
-    });
-
-    box[i].addEventListener('mouseleave', function () {
-      hex[i].classList.remove('hexhov');
-      color[i].classList.remove("colorhov");
-      cap[i].classList.remove("caphov");
-    });
-  }
-  </script>
-  <script>
-    let nav = document.getElementById('sp-tool');
-    const scrollHeight = Math.max(
-      document.body.scrollHeight, document.documentElement.scrollHeight,
-      document.body.offsetHeight, document.documentElement.offsetHeight,
-      document.body.clientHeight, document.documentElement.clientHeight
-    );
-    const pageBottom = scrollHeight - window.innerHeight;
-
-    window.addEventListener('scroll', () => {
-      let currentPos = window.pageYOffset;
-      if (currentPos > 100 && currentPos < pageBottom - 300) {
-        nav.classList.add('active');
+        disp[e].innerHTML = hexColor;
       }
-      else {
-        nav.classList.remove('active');
+
+      //Hex変換する関数
+      function rgbToHex(color) {
+        var hex = '#';
+        var regex = color.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+        if (regex) {
+          var rgb =
+            [
+              parseInt(regex[1]).toString(16),
+              parseInt(regex[2]).toString(16),
+              parseInt(regex[3]).toString(16)
+            ];
+
+          for (let i = 0; i < rgb.length; ++i) {
+            if (rgb[i].length == 1) {
+              rgb[i] = '0' + rgb[i];
+            }
+            hex += rgb[i];
+          }
+          return hex;
+        }
+      };
+
+    </script>
+    <script>
+      let box = document.getElementsByClassName('box');
+      let hex = document.getElementsByClassName('hex');
+      let color = document.getElementsByClassName('color');
+      let cap = document.getElementsByClassName('cap');
+
+      for (let i = 0; i < box.length; i++) {
+
+        box[i].addEventListener('mouseover', function () {
+          hex[i].classList.add('hexhov');
+          color[i].classList.add("colorhov");
+          cap[i].classList.add("caphov");
+        });
+
+        box[i].addEventListener('mouseleave', function () {
+          hex[i].classList.remove('hexhov');
+          color[i].classList.remove("colorhov");
+          cap[i].classList.remove("caphov");
+        });
       }
-    });
-  </script>
+    </script>
+    <script>
+      let nav = document.getElementById('sp-tool');
+      const scrollHeight = Math.max(
+        document.body.scrollHeight, document.documentElement.scrollHeight,
+        document.body.offsetHeight, document.documentElement.offsetHeight,
+        document.body.clientHeight, document.documentElement.clientHeight
+      );
+      const pageBottom = scrollHeight - window.innerHeight;
+
+      window.addEventListener('scroll', () => {
+        let currentPos = window.pageYOffset;
+        if (currentPos > 100 && currentPos < pageBottom - 300) {
+          nav.classList.add('active');
+        }
+        else {
+          nav.classList.remove('active');
+        }
+      });
+    </script>
 </body>
 
 </html>
