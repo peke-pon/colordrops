@@ -1,3 +1,3 @@
 # colordrops
 
-[image](https://raw.githubusercontent.com/peke-pon/colordrops/master/colordrop.png)
+![image](https://raw.githubusercontent.com/peke-pon/colordrops/master/colordrop.png)
